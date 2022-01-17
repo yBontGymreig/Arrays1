@@ -9,10 +9,10 @@ namespace ConsoleApp1
             /* The Main method automatically gets called when the program is run. */
                         
             // Call the procedure named Activity1 and pass into it 0 parameters
-            Activity1();
+            //Activity1();
 
             // Call the procedure named Activity2 and pass into it a string parameter
-            Activity2("Could you speak differently please");
+            //Activity2("Could you speak differently please");
 
             // To begin with the following procedure calls are 'commented out'
             // char[] arrayOfChars = {'p', 'o', 't', 'a', 't', 'o'};
@@ -22,7 +22,22 @@ namespace ConsoleApp1
             // Activity5("slipup");
 
             // This allows the program to pause before closing...
+
+            Console.WriteLine(3/2);
+            Console.WriteLine(Divide(3,2));
+            char[] chars = "qwertyuiopasdfghjklzxcvbnm".ToCharArray();
+
             WaitForEnter();
+        }
+
+        static void CrackPassword(string password, char[])
+        {
+
+
+        }
+        static float Divide(int numerator, int denominator)
+        {
+            return Convert.ToSingle(numerator)/Convert.ToSingle(denominator);
         }
 
         static void Activity1()
