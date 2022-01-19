@@ -26,7 +26,7 @@ namespace ConsoleApp1
             Console.WriteLine(3/2);
             Console.WriteLine(Divide(3,2));
             char[] chars = "qwertyuiopasdfghjklzxcvbnm".ToCharArray();
-
+            Console.WriteLine(chars[10]);
             WaitForEnter();
         }
 
